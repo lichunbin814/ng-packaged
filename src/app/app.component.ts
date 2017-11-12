@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { BarService } from '../../dist/my-lib/';
+// it's work
+// import { BarService } from '../../dist/my-lib/';
+
+// it's not work
+import { BarService } from '../../dist/my-lib/bar/bar.service';
 
 @Component({
   selector: 'app-root',
