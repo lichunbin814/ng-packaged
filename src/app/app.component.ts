@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { BarService } from '@my/lib';
+import { BarService } from '../../dist/my-lib/';
 
 @Component({
   selector: 'app-root',
